@@ -1,0 +1,175 @@
+@import 'base/fonts';
+@import 'layout/nav';
+@import 'layout/form';
+
+.galerie-section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.images 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images2
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.principal
+{
+ z-index: 1;
+ left: 35%;
+top: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+letter-spacing: 0.5rem;
+text-align: center;
+color: white
+
+
+}
+
+.principal h1
+{
+    color: white;
+}
+.main-body
+{padding: 0;    }
+body{
+   padding: .5%
+}
+
+span
+{
+    color: #F2A444
+}
+
+.menuToggle{
+    display: none;
+}
+
+
+header img 
+{
+    
+    margin-left: 40%; 
+}
+
+h1
+{
+    margin-left: 42%;
+}
+.titre-presta 
+{
+    color: #F2A444
+}
+
+.main-presta p {text-align: center;
+
+}
+
+.contact img
+{
+    margin-left: 35%; 
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form
+{
+    text-align: center;
+    
+
+}
+
+.photo-contact
+{
+    width: 30vw;
+}
+
+.nav-contact li{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.4rem;
+    
+}
+
+.nav-contact ul
+{
+    list-style-type: none;
+}
+
+.nav-contact a
+
+    {color: #F2A444;
+        padding-bottom: 3px;
+        text-decoration: none;}
+
+    .cotact{
+        display: flex;
+    }
+
+
+main
+{
+    
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+  
+
+ 
+
+    h2 ,p 
+    {
+        text-align: center; 
+    }
+
+    main p
+    {
+        text-align: inherit;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+        
+
+    footer
+    {
+        background-color: rgb(242, 164, 68,0.8)
+    }
+
+    .icones{
+        display: flex;
+        margin-left: 70%;
+    }
+
+
+
+@media screen and (max-width: 480px) 
+
+
+  {
+      @import 'layout/responsive';
+  }
+
+ 
+
